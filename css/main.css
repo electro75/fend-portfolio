@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cover-photo {
+    background-image: url('../img/cover.jpg');
+    width: 100%;
+    height: 350px;
+    background-position: center center;
+/*    border: 2px solid white;*/
+}
+
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    margin-top: -170px;
+    background-position: top left;
+    border-radius: 200px;
+    border: 2px solid white;
+        
+}
+
+.profile {
+    background-color: #f8f9fa;
+}
+
+.caption {
+    text-align: center;
+}
+
+.lower {
+    display: flex;
+}
+
+.navbar{
+    margin-top: -80px;
+    margin-left: -9px;
+    width: 100%;
+}
