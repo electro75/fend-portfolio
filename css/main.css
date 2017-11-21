@@ -4,10 +4,14 @@
     margin: 0;
 }
 
+body {
+    background-color: #f8f9fa;
+}
+
 .cover-photo {
     background-image: url('../img/cover.jpg');
     width: 100%;
-    height: 350px;
+    height: 200px;
     background-position: center center;
 /*    border: 2px solid white;*/
 }
@@ -25,6 +29,8 @@
 
 .profile {
     background-color: #f8f9fa;
+/*    border-right: 1px solid black;*/
+/*    padding-bottom: 245px;*/
 }
 
 .caption {
@@ -35,8 +41,12 @@
     display: flex;
 }
 
-.navbar{
-    margin-top: -80px;
-    margin-left: -9px;
+.info {
     width: 100%;
+}
+
+nav {
+    z-index: 0;
+    padding-bottom: 0px;
+/*    border-bottom: 1px solid black;*/
 }
